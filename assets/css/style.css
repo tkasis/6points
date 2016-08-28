@@ -702,12 +702,11 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
-		height: 28em;
 		text-align: center;
 		position: relative;
+		height: 0;
 	}
 
 		#banner header {
@@ -715,8 +714,6 @@
 			bottom: 0;
 			left: 0;
 			width: 100%;
-			background: #212121;
-			background: rgba(27, 27, 27, 0.75);
 			color: #fff;
 			padding: 1.5em 0;
 		}
