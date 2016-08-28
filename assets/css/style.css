@@ -397,7 +397,26 @@
 			margin-left: 0;
 			padding-left: 0;
 		}
-
+/* Tom Kraft list */
+	ul.list {
+		text-align: left;
+		list-style: circle;
+		margin-left: 3em;
+	}
+/* Responsive Map */
+	.map-responsive{
+	    overflow:hidden;
+	    padding-bottom:56.25%;
+	    position:relative;
+	    height:0;
+	}
+	.map-responsive iframe{
+	    left:0;
+	    top:0;
+	    height:100%;
+	    width:100%;
+	    position:absolute;
+}
 /* Tables */
 
 	table {
@@ -745,7 +764,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 5em 0 3em 0;
+		padding: 2em 0 1em 0;
 	}
 
 		.wrapper.style1 {
